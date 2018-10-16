@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "next": "^7.0.0",
+    "next": "^7.0.2",
     "react": "^16.5.2",
     "react-bingmaps": "^3.6.1",
     "react-dom": "^16.5.2"

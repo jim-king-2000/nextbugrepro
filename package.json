@@ -19,6 +19,7 @@
     "react": "^16.6.3",
     "react-bingmaps": "^3.6.1",
     "react-dom": "^16.6.3",
-    "url-loader": "^1.1.2"
+    "url-loader": "^1.1.2",
+    "react-module": "git+https://github.com/jim-king-2000/react-module.git"
   }
 }

@@ -1,12 +1,10 @@
 // import { ReactBingmaps } from 'react-bingmaps';
+import {My} from 'react-module/build';
 
-// const Index = () => (
-//   <div>
-//     <ReactBingmaps 
-//       bingmapKey = 'AhDjnlgDaR87L08Y3Uchu87Ky5vfvj8pkIQfLhGZ2yplreOxws6f3XCMHj0tMAR-'> 
-//     </ReactBingmaps>
-//   </div>
-// )
+const Index = () => (
+  <div>
+    <My />
+  </div>
+)
 
-// export default Index
-import { My } from 'react-module';
+export default Index

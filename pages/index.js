@@ -1,10 +1,15 @@
-// import { ReactBingmaps } from 'react-bingmaps';
-import {My} from 'react-module/build';
+import auth0 from 'auth0-js';
+import React from 'react';
 
-const Index = () => (
-  <div>
-    <My />
-  </div>
-)
+const auth = new auth0.WebAuth({
+  domain: 'fio.auth0.com',
+  clientID: 'sDcH9nROr9VCiiwv6i0F993yxPBTDe7g',
+  redirectUri: 'http://localhost:3000/callback',
+  responseType: 'token id_token',
+  scope: 'openid'
+});
 
-export default Index
+/*if (typeof window !== 'undefined') */auth.authorize();
+
+const Index = () => <div />;
+export default Index;

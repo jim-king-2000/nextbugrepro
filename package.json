@@ -12,14 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
-    "file-loader": "^2.0.0",
+    "auth0-js": "^9.8.2",
     "next": "^7.0.2",
     "react": "^16.6.3",
-    "react-bingmaps": "^3.6.1",
-    "react-dom": "^16.6.3",
-    "react-module": "git+https://github.com/jim-king-2000/react-module.git",
-    "url-loader": "^1.1.2"
+    "react-dom": "^16.6.3"
   }
 }

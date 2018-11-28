@@ -12,9 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@atlaskit/global-navigation": "^5.3.5",
+    "@atlaskit/icon": "^15.0.0",
     "auth0-js": "^9.8.2",
+    "babel-plugin-styled-components": "^1.9.1",
     "next": "^7.0.2",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1"
   }
 }

@@ -1,15 +1,15 @@
-import auth0 from 'auth0-js';
 import React from 'react';
+import GlobalNavigation from '@atlaskit/global-navigation';
+import EmojiAtlassianIcon from '@atlaskit/icon/glyph/emoji/atlassian';
 
-const auth = new auth0.WebAuth({
-  domain: 'fio.auth0.com',
-  clientID: 'sDcH9nROr9VCiiwv6i0F993yxPBTDe7g',
-  redirectUri: 'http://localhost:3000/callback',
-  responseType: 'token id_token',
-  scope: 'openid'
-});
-
-/*if (typeof window !== 'undefined') */auth.authorize();
-
-const Index = () => <div />;
+const Index = () => (
+  <>
+    <GlobalNavigation
+      productIcon={EmojiAtlassianIcon}
+      productTooltip='Test'
+      productHref='#'
+      profileIconUrl='https://api.adorable.io/avatars/285/abott@adorable.png'
+    />
+  </>
+);
 export default Index;

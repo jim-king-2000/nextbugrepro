@@ -12,8 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@atlaskit/avatar": "^14.1.5",
     "@atlaskit/global-navigation": "^5.3.5",
     "@atlaskit/icon": "^15.0.0",
+    "@atlaskit/logo": "^9.2.4",
+    "@atlaskit/navigation-next": "^4.0.7",
     "auth0-js": "^9.8.2",
     "babel-plugin-styled-components": "^1.9.1",
     "next": "^7.0.2",

@@ -12,16 +12,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@atlaskit/avatar": "^14.1.5",
-    "@atlaskit/global-navigation": "^5.3.5",
-    "@atlaskit/icon": "^15.0.0",
-    "@atlaskit/logo": "^9.2.4",
-    "@atlaskit/navigation-next": "^4.0.7",
+    "@atlaskit/avatar": "^14.1.6",
+    "@atlaskit/global-navigation": "^5.3.7",
+    "@atlaskit/icon": "^15.0.1",
+    "@atlaskit/logo": "^9.2.5",
+    "@atlaskit/navigation-next": "^4.0.8",
     "auth0-js": "^9.8.2",
-    "babel-plugin-styled-components": "^1.9.1",
+    "babel-plugin-styled-components": "^1.9.2",
     "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "styled-components": "^4.1.1"
+    "styled-components": "^4.1.2"
   }
 }

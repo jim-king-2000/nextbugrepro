@@ -13,17 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "@atlaskit/avatar": "^14.1.7",
-    "@atlaskit/form": "^5.0.0",
-    "@atlaskit/global-navigation": "^5.3.8",
+    "@atlaskit/form": "^5.1.0",
+    "@atlaskit/global-navigation": "^5.4.0",
     "@atlaskit/icon": "^15.0.3",
     "@atlaskit/logo": "^9.2.6",
-    "@atlaskit/navigation-next": "^4.0.10",
-    "@atlaskit/select": "^6.1.14",
+    "@atlaskit/navigation-next": "^4.1.0",
+    "@atlaskit/select": "^6.1.15",
     "auth0-js": "^9.8.2",
     "babel-plugin-styled-components": "^1.10.0",
     "next": "^7.0.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "styled-components": "^4.1.3"
   }
 }

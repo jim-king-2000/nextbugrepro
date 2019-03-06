@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
-import { B } from 'react-module';
+import React from 'react';
+import Button from '@atlaskit/button';
+import Tooltip from '@atlaskit/tooltip';
 
-export default class extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <B />
-    );
-  }
-}
+export default () => (
+  <Tooltip content="Hello World">
+    <Button>Hover Over Me</Button>
+  </Tooltip>
+);

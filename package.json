@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@atlaskit/button": "^10.1.2",
+    "@atlaskit/tooltip": "^12.1.17",
     "babel-plugin-styled-components": "^1.10.0",
     "next": "^7.0.2",
     "react": "^16.7.0",

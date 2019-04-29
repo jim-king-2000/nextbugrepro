@@ -18,7 +18,6 @@
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-module": "git+https://github.com/jim-king-2000/react-module.git",
     "styled-components": "^4.2.0"
   }
 }

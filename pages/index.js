@@ -1,30 +1,18 @@
 import React from 'react';
-import { Table, TableHeader, TableRow, TableCell, TableBody } from 'grommet';
+import { Accordion, AccordionPanel, Box, CheckBox, Text } from 'grommet';
 
 export default () => (
-  <Table>
-    <TableHeader>
-      <TableRow>
-        <TableCell scope="col" border="bottom">
-        </TableCell>
-        <TableCell scope="col" border="bottom">
-          Flavor
-        </TableCell>
-      </TableRow>
-    </TableHeader>
-    <TableBody>
-      <TableRow>
-        <TableCell scope="row">
-          <strong>Eric</strong>
-        </TableCell>
-        <TableCell>Coconut</TableCell>
-      </TableRow>
-      <TableRow>
-        <TableCell scope="row">
-          <strong>Chris</strong>
-        </TableCell>
-        <TableCell>Watermelon</TableCell>
-      </TableRow>
-    </TableBody>
-  </Table>
+  <Accordion>
+    <AccordionPanel label="Panel 1">
+      <Box gap="small" pad="medium" background="light-2">
+        <CheckBox label="abc" />
+        <CheckBox label="123" />
+      </Box>
+    </AccordionPanel>
+    <AccordionPanel label="Panel 2">
+      <Box pad="medium" background="light-2">
+        <Text>Two</Text>
+      </Box>
+    </AccordionPanel>
+  </Accordion>
 );

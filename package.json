@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "grommet": "^2.7.0",
+    "grommet": "^2.7.1",
     "grommet-theme-dxc": "^0.1.2",
     "next": "^8.1.0",
     "react": "^16.8.6",

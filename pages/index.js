@@ -1,4 +1,5 @@
-import { Grommet, Text  } from 'grommet';
+import { Grommet, Button  } from 'grommet';
+import { Qr } from 'grommet-icons';
 import { useRouter } from 'next/router';
 
 export default () => {
@@ -6,7 +7,7 @@ export default () => {
   console.log(router.query);
   return (
     <Grommet plain>
-      <Text>test next.js</Text>
+      <Button icon={<Qr />} label="Qr" />
     </Grommet>
   );
 }

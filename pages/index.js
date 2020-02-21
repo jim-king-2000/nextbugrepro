@@ -9,7 +9,7 @@ export default () => {
     <Grommet plain>
       <Form onSubmit={({ value }) => console.log(value)}>
         <FormField type='password' name='password' label='password' required />
-        <Button icon={<Qr />} primary type='submit' label='sign-in' />
+        <Button icon={<Qr color='plain' />} primary type='submit' label='sign-in' />
       </Form>
     </Grommet>
   );

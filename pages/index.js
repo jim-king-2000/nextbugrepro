@@ -1,5 +1,4 @@
-import { Grommet, Form, FormField, TextInput, Button  } from 'grommet';
-import { Qr } from 'grommet-icons';
+import { Grommet, Text  } from 'grommet';
 import { useRouter } from 'next/router';
 
 export default () => {
@@ -7,10 +6,7 @@ export default () => {
   console.log(router.query);
   return (
     <Grommet plain>
-      <Form onSubmit={({ value }) => console.log(value)}>
-        <FormField type='password' name='password' label='password' required />
-        <Button icon={<Qr color='plain' />} primary type='submit' label='sign-in' />
-      </Form>
+      <Text>test next.js</Text>
     </Grommet>
   );
 }

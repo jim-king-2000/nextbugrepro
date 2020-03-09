@@ -1,13 +1,25 @@
-import { Grommet, Button  } from 'grommet';
+import { useState } from 'react';
+import { Grommet, Button, Form, Select } from 'grommet';
 import { Qr } from 'grommet-icons';
-import { useRouter } from 'next/router';
 
 export default () => {
-  const router = useRouter();
-  console.log(router.query);
+  const [a, setA] =
+  useState();
   return (
     <Grommet plain>
-      <Button icon={<Qr />} label="Qr" />
+      <Form>
+        <Select
+          name='token_endpoint_auth_method'
+          options={['none', 'client_secret_basic', 'client_secret_post']}
+          value={a}
+          onChange={({ option }) => setA(option)}
+        />
+        <Button
+          icon={<Qr />}
+          label='test'
+          onClick={() => setA('none')}
+        />
+      </Form>
     </Grommet>
   );
 }

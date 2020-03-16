@@ -13,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "grommet": "^2.11.1",
-    "next": "^9.2.2",
+    "grommet": "^2.11.2",
+    "next": "^9.3.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "styled-components": "^5.0.1"
